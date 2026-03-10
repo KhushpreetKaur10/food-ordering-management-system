@@ -1,0 +1,19 @@
+ID,Name,Price,Category,Description
+1,Cold Coffee,89,Beverages,"Chilled blend of coffee, milk, and ice cream"
+2,Masala Chai,40,Beverages,Indian spiced tea brewed with milk and sugar
+3,Mango Shake,79,Beverages,Sweet mango drink served cold
+4,Margherita Pizza,109,Veg Pizzas,Cheesy classic pizza
+5,Corn Delight Pizza,209,Veg Pizzas,Sweet & juicy golden corn and 100% real mozzarella cheese in a delectable combination
+6,Veg Supreme Pizza,299,Veg Pizzas,"Mix of veggies like mushroom, onion, olives, capsicum, and cheese"
+7,Aloo Tikki Burger,89,Veg Burgers,Crispy potato patty with sauces and onions in a bun
+8,Veg Cheese Burger,119,Veg Burgers,Cheese-loaded patty with lettuce and mayo
+9,Masala Dosa,95,South Indian,Crispy dosa with spiced mashed potato filling
+10,Idli Sambar,70,South Indian,Steamed rice cakes served with sambar and coconut chutney
+11,Butter Chicken Pizza,319,Non Veg,Pizza topped with creamy butter chicken and cheese
+12,Chicken Keema Burger,169,Non Veg,Minced chicken patty with spicy mayo in toasted bun
+13,Chicken Biryani,240,Non Veg,Fragrant basmati rice layered with spiced chicken and saffron
+14,Pav Bhaji,119,Street Food,Spiced mashed vegetables with buttered pav buns
+15,Momos,99,Street Food,"Steamed dumplings filled with vegetables or chicken, served with spicy sauce"
+16,Samosa,19,Street Food,Crisp pastry filled with spiced potato peas filling
+17,Chocolate Brownie,99,Desserts,"Rich and gooey chocolate brownie, optionally served warm"
+18,Gulab Jamun,79,Desserts,Soft milk-solid dumplings soaked in rose-scented sugar syrup
