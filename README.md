@@ -1,6 +1,4 @@
-# food-ordering-management-system
-
-# 🍔 Online Food Ordering Portal
+# 🍔 Online Food Ordering & Management System
 
 A command-line based food ordering system built using **Python**.  
 The application allows customers to browse food items, manage carts and wishlists, place orders, and simulate payments, while administrators can manage products and customers.
@@ -52,16 +50,18 @@ The application allows customers to browse food items, manage carts and wishlist
 ---
 
 ## 📂 Project Structure
-food-ordering-portal-python
+food-ordering-management-system
 │
 ├── main.py
-├── customers.csv
-├── products.csv
-├── orders.csv
-├── wishlist.csv
-├── cart.csv
-├── searches.csv
-└── README.md
+├── README.md
+│
+└── data
+    ├── customers.csv
+    ├── products.csv
+    ├── orders.csv
+    ├── cart.csv
+    ├── wishlist.csv
+    └── searches.csv
 
 
 ---
@@ -69,12 +69,13 @@ food-ordering-portal-python
 ## ⚙️ How to Run the Project
 
 1. Clone the repository
-git clone https://github.com/KhushpreetKaur10/food-ordering-portal-python.git
+git clone https://github.com/KhushpreetKaur10/food-ordering-management-system.git
 
 2. Navigate to the project folder
 cd food-ordering-management-system
 
 3. Run the program
+python main.py
 
 ---
 
