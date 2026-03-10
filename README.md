@@ -69,7 +69,7 @@ food-ordering-portal-python
 ## ⚙️ How to Run the Project
 
 1. Clone the repository
-git clone https://github.com/KhushprretKaur10/food-ordering-portal-python.git
+git clone https://github.com/KhushpreetKaur10/food-ordering-portal-python.git
 
 2. Navigate to the project folder
 cd food-ordering-management-system
