@@ -14,14 +14,17 @@ products=[]
 customers=[]
 cart=[]
 
-customerFile = 'C:/Users/hp/Music/PYTHON GATEWAY/csv project food/customers.csv'
-customerPassFile = 'C:/Users/hp/Music/PYTHON GATEWAY/csv project food/customerPass.csv'
-productsFile='C:/Users/hp/Music/PYTHON GATEWAY/csv project food/products.csv'
-ordersFile = 'C:/Users/hp/Music/PYTHON GATEWAY/csv project food/orders.csv'
-wishlistFile='C:/Users/hp/Music/PYTHON GATEWAY/csv project food/wishlist.csv'
-cartFile='C:/Users/hp/Music/PYTHON GATEWAY/csv project food/cart.csv'
-loginLogoutFile='C:/Users/hp/Music/PYTHON GATEWAY/csv project food/login.csv'
-searchFile='C:/Users/hp/Music/PYTHON GATEWAY/csv project food/searches.csv'
+if not os.path.exists("data"):
+    os.makedirs("data")
+
+customerFile = 'data/customers.csv'
+customerPassFile = 'data/customerPass.csv'
+productsFile='data/products.csv'
+ordersFile = 'data/orders.csv'
+wishlistFile='data/wishlist.csv'
+cartFile='data/cart.csv'
+loginLogoutFile='data/login.csv'
+searchFile='data/searches.csv'
 
 
 def is_valid_email(email):
@@ -1203,6 +1206,7 @@ def main():
                 print("⚠️  : Invalid choice!")
         except ValueError:
             print("⚠️  : Input only numeric value.")
+
 
 
 main()
