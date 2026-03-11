@@ -48,6 +48,23 @@ The application allows customers to browse food items, manage carts and wishlist
 - Text Formatting (textwrap)
 
 ---
+## 🔄 System Workflow
+
+User → Authentication → Browse Products → Add to Cart → Checkout → Simulated Payment → Order Confirmation → Order History
+
+## 💾 Data Persistence
+
+The system stores application data using CSV files to simulate database behavior.  
+Files store information related to customers, products, carts, orders, wishlists, and search history.
+
+This approach allows persistent data storage without requiring an external database.
+
+
+## 🧩 Software Design Approach
+
+The application is designed using modular programming principles.  
+Core functionalities such as authentication, cart management, product browsing, and order processing are implemented as separate logical components to improve code maintainability and scalability.
+
 
 ## 📂 Project Structure
 food-ordering-management-system
